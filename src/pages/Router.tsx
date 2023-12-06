@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Feed from "../pages/Feed";
 import Profile from "../pages/Profile";
 import Layout from "../pages/Layout";
+import Post from "./Post";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,14 @@ const router = createBrowserRouter([
       </Layout>
     ),
   },
+  {
+    path: "posts/:id",
+    element: (
+        <Layout>
+            <Post />
+        </Layout>
+    )
+  }
 ]);
   
 export default router;
