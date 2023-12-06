@@ -1,4 +1,4 @@
-export const mockUserArray = [
+  const mockUserArray = [
     {
         "_id": "656939e77065f16bf01a3199",
         "username": "@@!!"
@@ -17,12 +17,12 @@ export const mockUserArray = [
     }
 ]
 
-export const mockUser = {
+  const mockUser = {
     "_id": "656e7bde02e529b8c31c4ec8",
     "username": "Larry Loganberry"
 }
 
-export const mockPostArray = [
+  const mockPostArray = [
     {
         "_id": "656939e97065f16bf01a319c",
         "title": "test post",
@@ -73,7 +73,7 @@ export const mockPostArray = [
     }
 ]
 
-export const mockPost = {
+  const mockPost = {
     "_id": "656fb04ea4b4c74d832b472c",
     "title": "test",
     "copy": "lorem ipsum",
@@ -112,7 +112,7 @@ export const mockPost = {
     "__v": 3
 }
 
-export const mockCommentArray = [
+  const mockCommentArray = [
     {
         "_id": "656fcac2ea44e0c92b6280e1",
         "author": "656939e77065f16bf01a3199",
@@ -138,7 +138,7 @@ export const mockCommentArray = [
     }
 ]
 
-export const mockComment = [
+  const mockComment = [
     {
         "_id": "656fcac2ea44e0c92b6280e1",
         "author": "656939e77065f16bf01a3199",
@@ -147,3 +147,5 @@ export const mockComment = [
         "date": "2023-12-06T03:59:10.934Z"
     }
 ]
+
+export { mockComment, mockCommentArray, mockPost, mockPostArray, mockUser, mockUserArray }
